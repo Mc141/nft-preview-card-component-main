@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.main-div {
+  height: 445px;
+  width: 255px;
+  background-color: hsl(216, 50%, 16%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding: 17px;
+  box-shadow: 0px 0px 19px 11px rgb(0 0 0 / 20%);
+}
+
+.photo-div {
+  vertical-align: middle;
+  position: relative;
+}
+
+.equilibrium {
+  width: 100%;
+  height: 223px;
+  border-radius: 8px;
+}
+
+.view-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  padding: 86px;
+  transition: opacity 0.3s ease;
+}
+
+.view-hover:hover {
+  opacity: 1;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  margin: 15px 0 12px 0;
+}
+
+.paragraph {
+  color: rgb(139, 172, 218);
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.price {
+  display: inline-block;
+  color: hsl(178, 100%, 50%);
+  position: relative;
+  top: -5px;
+  font-size: 11px;
+}
+
+.clock {
+  position: relative;
+  left: 76px;
+}
+
+.time {
+  display: inline-block;
+  color: hsl(215, 51%, 70%);
+  position: absolute;
+  right: 17px;
+  top: 347px;
+  font-size: 12px;
+}
+
+hr {
+  margin-top: 15px;
+  height: 1px;
+  border: none;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.creator-img {
+  display: inline-block;
+  width: 25px;
+  border: solid;
+  border-color: white;
+  border-radius: 100%;
+  border-width: 1px;
+  margin-top: 15px;
+}
+
+.creator-p {
+  display: inline;
+  font-size: 15px;
+  position: absolute;
+  top: 402px;
+  right: 69px;
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+}
+
+span {
+  color: white;
+}
